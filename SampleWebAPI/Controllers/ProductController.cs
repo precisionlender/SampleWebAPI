@@ -31,7 +31,7 @@ namespace SampleWebAPI.Controllers
                 Id = 3,
                 Name = "Waffle iron",
                 Description = "It doesn't toast, but makes delicious waffles"
-            }
+            },
 			new Product
             {
                 Id = 4,
@@ -51,5 +51,8 @@ namespace SampleWebAPI.Controllers
         {
             return Products[id];
         }
+    }
+    public class ApiController
+    {
     }
 }
